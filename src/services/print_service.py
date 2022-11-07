@@ -7,3 +7,4 @@ class Printer:
         if self._return_print_string:
             return print_str
         return ""
+    
