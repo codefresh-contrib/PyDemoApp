@@ -1,6 +1,6 @@
-
-
+from services.print_service import Printer
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_func('This is a Python Demo App')
+    printer = Printer(True)
+    printer.print_func('This is a Python Demo App')
