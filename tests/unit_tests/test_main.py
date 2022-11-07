@@ -1,13 +1,13 @@
 import unittest
 from src.services.print_service import Printer
 
-from mock import Mock
+from mock import mock
 
 
 class TestMain(unittest.TestCase):
     def test_print_func_returns_value(self):
         # arrange
-        mock_str = str(Mock)
+        mock_str = str(mock)
         printer = Printer(True)
 
         # act
